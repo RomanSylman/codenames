@@ -1,7 +1,7 @@
-import { Card as CardEntity } from '@/entities/card/model/types';
+import { Card as Cards } from '@/entities/card/model/types';
 
 export interface GameState {
-  cards: CardEntity[];
+  cards: Cards[];
   currentTeam: 'red' | 'blue';
   redScore: number;
   blueScore: number;
